@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,3 +170,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+fake-*.tsv
+fakemaker.py
+>>>>>>> 3ec8f70 (Updated .gitignore to ignore fake TSV files)

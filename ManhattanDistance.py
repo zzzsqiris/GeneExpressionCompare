@@ -2,13 +2,6 @@
 import os
 import glob
 
-##filename = sys.argv[1]
-##file1 = open(filename,"r")
-##filename2 = sys.argv[2]
-##file2 = open(filename2,"r")
-
-
-
 def Manhattan(file1, file2):
     dic = {}
     MHD = 0
@@ -27,7 +20,6 @@ def Manhattan(file1, file2):
             d = abs(pro - dic[name])
             MHD += d
     return MHD
-
 
 
 file_list = glob.glob("*.tsv")
